@@ -1,4 +1,5 @@
 "use client";
+import CustomForm from "@/components/CustomForm";
 import { FloatButton, Space, Typography, Divider } from "antd";
 
 const { Title, Paragraph, Text, Link } = Typography;
@@ -34,12 +35,26 @@ export default function Home() {
           <Text underline>Ant Design (underline)</Text>
           <Text delete>Ant Design (delete)</Text>
           <Text strong>Ant Design (strong)</Text>
-          <Divider />
           <Text italic>Ant Design (italic)</Text>
           <Link href="https://ant.design" target="_blank">
             Ant Design (Link)
           </Link>{" "}
         </Space>
+
+        <Text>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio voluptate accusamus autem, nemo sapiente
+          placeat aspernatur quia totam omnis eum. Consequuntur quaerat porro doloribus praesentium dicta rem animi
+          laborum quos!
+        </Text>
+        <Divider>Hello</Divider>
+        <Text>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum iusto, aperiam laudantium magnam impedit,
+          aliquam excepturi officiis quas, libero ullam officia voluptates? Accusantium, atque? Alias nemo magni maxime
+          cum eveniet!
+        </Text>
+        <>
+          <CustomForm />
+        </>
       </main>
     </div>
   );
